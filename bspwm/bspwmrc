@@ -2,8 +2,8 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor HDMI-1 -d 1 2 3 4 5
-bspc monitor DP-2 -d 6 7 8 9 0
+bspc monitor HDMI-1 -d a s d f g
+bspc monitor DP-2 -d h j k l z
 
 bspc config border_width         2
 bspc config window_gap          12
@@ -18,23 +18,23 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
+#reload sxhkd config
+pkill -USR1 -x sxhkd
+
 #fix displays
-#if [ -x /bin/bspwm-monitor-config ];then
-#    bspwm-monitor-config
-#fi
 $HOME/.config/xrandr-monitor-fix/launch.sh
 
-echo "display run"
-
 #launch bg
-feh --bg-scale /home/ryan/Pictures/anime-bg.png
+feh --bg-scale /home/ryan/Pictures/sunset-bg.jpg
 
-echo "background run" 
-#launch compiler
-compton --backend glx --vsync opengl-swc &
+#launch compton (screens flip if you don't, also f**** terminal transparency)
+compton --backend glx --vsync opengl-swc
 
-echo "compiler run"
+#launch pywal
+(cat ~/.cache/wal/sequences &)
+wal -R
+
 #launch polybar
 $HOME/.config/polybar/launch.sh
 
-echo "bars launched"
+echo "bspwm booted"

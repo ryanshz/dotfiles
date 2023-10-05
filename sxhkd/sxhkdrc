@@ -13,6 +13,7 @@ super + Escape
 #rofi (app launcher)
 super + space
 	rofi -show drun
+	
 # firefox (browser)
 super + f
 	firefox
