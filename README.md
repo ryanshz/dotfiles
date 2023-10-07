@@ -26,3 +26,7 @@ pywal
 ranger
 
 cava
+
+## to install (probably on future os)
+
+dunst 

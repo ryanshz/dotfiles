@@ -3,5 +3,3 @@ cmatrix
 neofetch 
 pipx run --spec ranger-fm ranger
 top
-
-optional: cava
