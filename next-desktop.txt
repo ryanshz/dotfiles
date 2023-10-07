@@ -1,0 +1,12 @@
+Display Server: xorg
+ - sudo pacman -S xorg
+GPU: Nvidia
+ - sudo pacman -S nvidia nvidia-utils
+Desktop Env: Hyprland
+Display Manager: LightDM webkit2 greeter(glorious theme?)
+ - sudo systemctl enable lightdm.service
+2nd kernel: Hardened Kernel
+ - sudo pacman -S linux-hardened linux-hardened-headers
+Processor: AMD
+ - sudo pacman -S linux-firmware
+ - sudo grub-mkconfig -o /boot/grub/grub.cfg

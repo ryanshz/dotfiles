@@ -1,7 +1,6 @@
 #! /bin/sh
 
 pkill -USR1 -x sxhkd || sxhkd &
-#test 
 #test pgrep -x sxhkd > /dev/null
 
 bspc monitor HDMI-1 -d a s d f g
@@ -20,20 +19,20 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
+wmname daga-bspwm
+
 #fix displays
 $HOME/.config/xrandr-monitor-fix/launch.sh
 
 #launch bg
-feh --bg-scale /home/ryan/Pictures/sunset-bg.jpg
+feh --bg-scale $HOME/Pictures/wallpaper/sunset-bg.jpg
 
 #launch compton (screens flip if you don't, also f**** terminal transparency)
 compton --backend glx --vsync opengl-swc
 
 #launch pywal
-(cat ~/.cache/wal/sequences &)
+(cat ~/.cache/wal/sequences &) 
 wal -R
 
 #launch polybar
 $HOME/.config/polybar/launch.sh
-
-echo "bspwm booted"
