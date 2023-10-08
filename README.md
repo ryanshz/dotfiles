@@ -6,9 +6,9 @@ WM: bspwm
 
 Bar: polybar
 
-DMENU: rofi
+Launcher: rofi
 
-File Manager: Thunar
+File Manager: Ranger
 
 Theme: Layan-Dark
 
@@ -25,8 +25,30 @@ pywal
 
 ranger
 
+cmatrix
+
 cava
 
 ## to install (probably on future os)
 
 dunst 
+
+zsh
+
+## applications
+
+vscode
+
+gimp
+
+bitwarden
+
+discord
+
+spotify
+
+obsidian
+
+flameshot
+
+neovim
