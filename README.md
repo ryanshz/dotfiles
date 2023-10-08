@@ -8,7 +8,7 @@ Bar: polybar
 
 Launcher: rofi
 
-File Manager: Ranger
+File Manager: Thunar/Ranger
 
 Theme: Layan-Dark
 
