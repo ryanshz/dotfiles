@@ -1,5 +1,5 @@
-# debian
-presets for debian environment
+# dotfiles
+presets for linux environment
 
 ## specs
 WM: bspwm
