@@ -29,8 +29,8 @@ wmname daga-bspwm &
 #fix displays
 $HOME/.config/xrandr-monitor-fix/launch.sh &
 
-#launch bg
-feh --bg-scale $HOME/Pictures/wallpaper/sunset-bg.jpg &
+#launch bg (not needed, pywal does it?)
+#feh --bg-scale $HOME/pictures/wallpaper/bocchi.jpg &
 
 #launch pywal
 (cat ~/.cache/wal/sequences &)

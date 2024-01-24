@@ -16,11 +16,7 @@ super + space
 	
 # firefox (browser)
 super + f
-	firefox
-
-# VSCode
-super + c
-	code
+	flatpak run org.mozilla.firefox
 
 # Thunar (file manager)
 super + t
