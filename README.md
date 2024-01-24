@@ -8,22 +8,12 @@ Bar: polybar
 
 Launcher: rofi
 
-File Manager: Thunar/Ranger
-
-Theme: Layan-Dark
-
-Icons: Papirus-Dark
+File Manager: Thunar
 
 Terminal: Kitty
 
 ## plugins
-qt5ct
-
-lxappearance
-
 pywal
-
-ranger
 
 cmatrix
 
@@ -50,5 +40,3 @@ spotify
 obsidian
 
 flameshot
-
-neovim
