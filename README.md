@@ -12,13 +12,11 @@ Bar: polybar
 
 Launcher: rofi
 
-File Manager: Thunar
-
-Terminal: Kitty
+Terminal: kitty
 
 Shell : zsh
 
-Notifications: Dunst
+Notifications: dunst
 
 ## cool plugins and extra util
 
