@@ -14,6 +14,8 @@ File Manager: Thunar
 
 Terminal: Kitty
 
+Shell : zsh
+
 Notifications: Dunst
 
 ## cool plugins and extra util
@@ -30,7 +32,7 @@ cmatrix
 
 ## to install (probably on future os)
 
-zsh
+nothing atm
 
 ## applications
 
