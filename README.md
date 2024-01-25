@@ -1,8 +1,8 @@
 # dotfiles
 
-presets for linux environment
-
 ![current fedora desktop](images/fedoradesk.png)
+
+presets for linux environment
 
 ## specs
 
