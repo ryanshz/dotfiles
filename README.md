@@ -1,7 +1,9 @@
 # dotfiles
+
 presets for linux environment
 
 ## specs
+
 WM: bspwm
 
 Bar: polybar
@@ -12,16 +14,21 @@ File Manager: Thunar
 
 Terminal: Kitty
 
-## plugins
+Notifications: Dunst
+
+## cool plugins and extra util
+
+lxappearance
+
+xarchiver
+
+thunar
+
 pywal
 
 cmatrix
 
-cava
-
 ## to install (probably on future os)
-
-dunst 
 
 zsh
 
