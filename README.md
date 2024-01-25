@@ -2,6 +2,8 @@
 
 presets for linux environment
 
+![current fedora desktop](images/fedoradesk.png)
+
 ## specs
 
 WM: bspwm
