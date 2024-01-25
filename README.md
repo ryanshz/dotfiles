@@ -16,9 +16,10 @@ Terminal: kitty
 
 Shell : zsh
 
-Notifications: dunst
-
 ## cool plugins and extra util
+dunst
+
+picom
 
 lxappearance
 
@@ -30,7 +31,7 @@ pywal
 
 cmatrix
 
-## to install (probably on future os)
+## to install
 
 nothing atm
 
