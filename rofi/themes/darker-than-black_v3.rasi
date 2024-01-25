@@ -3,16 +3,19 @@
  * User: Avasz
  * Copyleft: Avasz <avasz@protonmail.com>
  *******************************************************************************/
-
+/*  old colors
+	background-color:           #0F1212;
+*/
 
 * {
-	background-color:           #0F1212;
+	background-color:           #283340;
 	text-color:                 #d3d7cf;
 	selbg:                      #e3e3e3;
 	actbg:                      #e3e3e3;
 	urgbg:                      #e53935;
 	winbg:						#0F1212;
 
+	
 	selected-normal-foreground: @winbg;
 	normal-foreground:          @text-color;
 	selected-normal-background: @actbg;
