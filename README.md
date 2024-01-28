@@ -33,7 +33,7 @@ cmatrix
 
 ## to install
 
-nothing atm
+eww (learning)
 
 ## applications
 
