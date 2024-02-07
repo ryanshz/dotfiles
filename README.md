@@ -1,10 +1,18 @@
 # dotfiles
 
-![current fedora desktop](images/fedoradesk.png)
+![current fedora desktop](desktop/images/fedoradesk.png)
 
-presets for linux environment
+> desktop environment
 
-## specs
+![current mac desktop](mac/images/desktop.png)
+
+> mac enviroment
+
+## desktop
+
+### specs
+
+Distro: Fedora 39
 
 WM: bspwm
 
@@ -16,12 +24,15 @@ Terminal: kitty
 
 Shell : zsh
 
-## cool plugins and extra util
+### cool plugins and extra util
+
 dunst
 
 picom
 
 lxappearance
+
+qt5ct
 
 xarchiver
 
@@ -29,24 +40,40 @@ thunar
 
 pywal
 
-cmatrix
-
-## to install
+### to install
 
 eww (learning)
 
-## applications
+### applications
 
-vscode
+vscode gimp bitwarden discord spotify obsidian flameshot
 
-gimp
+## mac
 
-bitwarden
+Distro: Fedora 39 Asahi Remix
 
-discord
+WM: hyprland
 
-spotify
+Bar: waybar
 
-obsidian
+Launcher: wofi
 
-flameshot
+Terminal: kitty
+
+Shell: zsh
+
+### cool plugins and extra util
+
+kde desktop environment just in case i need its utilities
+
+thunar
+
+pywal
+
+### to install
+
+notification daemon
+
+### applications
+
+vscode gimp ncspot
