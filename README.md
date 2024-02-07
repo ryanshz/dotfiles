@@ -76,4 +76,4 @@ notification daemon
 
 ### applications
 
-vscode gimp ncspot
+vscode gimp ncspot bitwarden
