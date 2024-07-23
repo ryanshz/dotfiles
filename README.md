@@ -12,13 +12,15 @@
 
 ### specs
 
-Distro: Fedora 39
+Distro: Fedora 40
 
-WM: bspwm
+WM: hyprland
 
-Bar: polybar
+DM: sddm
 
-Launcher: rofi
+Bar: waybar
+
+Launcher: wofi
 
 Terminal: kitty
 
@@ -47,6 +49,12 @@ eww (learning)
 ### applications
 
 vscode gimp bitwarden discord spotify obsidian flameshot
+
+### reminders
+
+1. enable graphical login manager
+2. edit nano to display lines
+3. edit waybar to match monitors
 
 ## mac
 
