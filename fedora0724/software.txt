@@ -1,0 +1,12 @@
+discord
+vscode
+waypaper
+neovim
+bitwarden
+lxapperance
+qt5ct
+thunar
+firefox
+spotify
+obsidian
+gimp
