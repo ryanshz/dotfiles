@@ -1,16 +1,16 @@
 # dotfiles
 
-![current fedora desktop](old-desktop/images/fedoradesk.png)
+![current fedora desktop](fedora073124/images/fedoradesk.png)
 
 > desktop environment
-
-## desktop
 
 ### specs
 
 Distro: Fedora 40
 
-WM: hyprland (sway)
+DE: hyprland
+
+WM: sway
 
 DM: sddm
 
@@ -22,15 +22,23 @@ Terminal: kitty
 
 Shell : zsh
 
+Notification Daemon : dunst
+
 ### cool plugins and extra util
 
-dunst
-
-lxappearance
+nwg-look
 
 pcmanfm
 
 qt6ct
+
+### theming
+
+arc-dark
+
+paper-mono-dark
+
+pywal for colors
 
 ### applications
 
@@ -38,36 +46,6 @@ vscode gimp bitwarden discord spotify obsidian font-manager xarchiver
 
 ### reminders
 
-1. enable graphical login manager
-2. edit nano to display lines
+1. enable graphical login manager on server edition
+2. edit nano to display lines (and fix tab)
 3. edit waybar to match monitors
-
-## mac
-
-Distro: Fedora 39 Asahi Remix
-
-WM: hyprland
-
-Bar: waybar
-
-Launcher: wofi
-
-Terminal: kitty
-
-Shell: zsh
-
-### cool plugins and extra util
-
-kde desktop environment just in case i need its utilities
-
-thunar
-
-pywal
-
-### to install
-
-notification daemon
-
-### applications
-
-vscode gimp ncspot bitwarden
