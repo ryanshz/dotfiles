@@ -1,12 +1,8 @@
 # dotfiles
 
-![current fedora desktop](desktop/images/fedoradesk.png)
+![current fedora desktop](old-desktop/images/fedoradesk.png)
 
 > desktop environment
-
-![current mac desktop](mac/images/desktop.png)
-
-> mac enviroment
 
 ## desktop
 
@@ -14,7 +10,7 @@
 
 Distro: Fedora 40
 
-WM: hyprland
+WM: hyprland (sway)
 
 DM: sddm
 
@@ -30,25 +26,15 @@ Shell : zsh
 
 dunst
 
-picom
-
 lxappearance
 
-qt5ct
+pcmanfm
 
-xarchiver
-
-thunar
-
-pywal
-
-### to install
-
-eww (learning)
+qt6ct
 
 ### applications
 
-vscode gimp bitwarden discord spotify obsidian flameshot
+vscode gimp bitwarden discord spotify obsidian font-manager xarchiver
 
 ### reminders
 
