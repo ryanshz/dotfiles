@@ -10,18 +10,17 @@ monitor=,preferred,auto,auto
 
 # See https://wiki.hyprland.org/Configuring/Keywords/ for more
 
-#$bg = swaybg -i "$HOME/pictures/ruby.jpg"
-$pywal = wal -R
-$bg = waypaper --restore
+$bg = swaybg -i "$HOME/pictures/wallpapers/ruby.jpg"
+#$bg = waypaper --restore
 # Execute your favorite apps at launch
-exec-once = waybar & $bg & $pywal
+exec-once = waybar & $bg
 
 # Source a file (multi-file configs)
 # source = ~/.config/hypr/myColors.conf
 
 # Set programs that you use
 $terminal = kitty
-$fileManager = thunar
+$fileManager = dolphin
 $menu = wofi --show drun
 $firefox = flatpak run org.mozilla.firefox
 $screenshot = grim -g "$(slurp)"
@@ -29,8 +28,8 @@ $code = flatpak run com.visualstudio.code
 
 # Some default env vars.
 env = XCURSOR_SIZE,24
-env = QT_QPA_PLATFORMTHEME,qt5ct # change to qt6ct if you have that
-
+env = QT_QPA_PLATFORMTHEME,qt6ct # change to qt6ct if you have that
+env = WLR_NO_HARDWARE_CURSORS,1
 # For all categories, see https://wiki.hyprland.org/Configuring/Variables/
 input {
     kb_layout = us
@@ -56,6 +55,7 @@ general {
     border_size = 0
     col.active_border = rgba(33ccffee) rgba(00ff99ee) 45deg
     col.inactive_border = rgba(595959aa)
+    no_cursor_warps = 0
 
     layout = dwindle
 
@@ -124,7 +124,7 @@ misc {
 # windowrulev2 = float,class:^(kitty)$,title:^(kitty)$
 # See https://wiki.hyprland.org/Configuring/Window-Rules/ for more
 windowrulev2 = nomaxsize, class:.* # You'll probably like this.
-windowrulev2 = opacity 0.99 opacity .9, class:.*
+windowrulev2 = opacity x.9 opacity .9, class:.*
 
 # See https://wiki.hyprland.org/Configuring/Keywords/ for more
 $mainMod = SUPER

@@ -1,0 +1,52 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: FontAwesome, 'Noto Sans', serif;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(0,0,0,0.3);
+    color: white;
+}
+
+.modules-left{
+    margin-left: 1rem;
+}
+
+.modules-right{
+    margin-right: 1rem;
+}
+
+#workspaces, #group-power, #pulseaudio, #clock {
+    margin-bottom: 3px;
+    margin-top: 3px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 3px;
+}
+
+#group-power, #pulseaudio, #clock{
+    padding: 0 1rem;
+}
+
+#workspaces {
+    margin-left: 1rem;
+}
+
+#workspaces button {
+    background: transparent;
+    color: white;
+}
+
+#workspaces button:hover {
+    background: transparent;
+}
+
+#pulseaudio {
+    margin-right: 1rem;
+}
+
+#custom-quit, #custom-lock, #custom-reboot {
+    padding-left: 1rem;
+}

@@ -1,0 +1,72 @@
+{
+    "reload_style_on_change": true,
+    "layer": "top",
+    "modules-left": [
+        "group/group-power",
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "clock"
+    ],
+    "hyprland/workspaces": {
+        "persistent-workspaces": {
+            "*": 3,
+            "HDMI-A-1": [
+                1,
+                3,
+                5
+            ],
+            "DP-2": [
+                2,
+                4,
+                6
+            ]
+        }
+    },
+    "clock": {
+        "format": "{:%I:%M %p}",
+        "format-alt": "{:%a %b %d  %I:%M %p}"
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-muted": "muted ",
+        "format-icons": {
+            "default": [
+                "",
+                ""
+            ]
+        },
+        "scroll-step": 5,
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "ignored-sinks": [
+            "Easy Effects Sink"
+        ]
+    },
+    "group/group-power": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/power",
+            "custom/lock",
+            "custom/reboot"
+        ]
+    },
+    "custom/lock": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "swaylock"
+    },
+    "custom/reboot": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "reboot"
+    },
+    "custom/power": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "poweroff"
+    }
+}
